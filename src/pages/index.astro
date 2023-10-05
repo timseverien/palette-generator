@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/Default.astro';
+import PaletteGenerator from '../components/PaletteGenerator.svelte';
+---
+
+<Layout>
+	<h1>Palette generator</h1>
+	<PaletteGenerator client:idle />
+</Layout>
